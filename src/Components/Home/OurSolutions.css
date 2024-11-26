@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-ofSolutions{
+    max-width: 100%;
+    height: 1400px;
+    margin-left: 70px;
+    
+}
+
+.bimg2{
+    background-image: url('./bg-12.png');
+    background-size: cover;
+    height: 1200px;
+    max-width: 100%;
+
+}
+
+.solutions-content{
+    width: 640px;
+    height: 250px;
+    text-align: center;
+    margin-left: 400px;
+    
+}
+
+.solutions-content h2{
+    font-size: 65px;
+    font-weight: 400;
+}
+.grid-para{
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    color: rgb(57, 57, 57);
+    font-weight: 400;
+}
+
+.solutions-grid-container{
+    width: 1200px;
+    height: 900px;
+    margin-left: 100px;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.solutions-grid-Box{
+    width: 530px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.solutions-Box-img img{
+    width: 190px;
+    height: 190px;
+}
+
+.solutions-grid-content h3{
+    font-size: 26px;   
+}
+.grid-para{
+    font-size: 17px;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    color: rgb(57, 57, 57);
+    font-weight: 400;   
+}
+
+button {
+    padding: 8px 35px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgb(225, 224, 224);
+}
+button a{
+    color: black;
+}
+
+.project-btn{
+    padding: 10px 55px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid rgb(194, 192, 192);
+    margin-left: 600px;
+    
+}
+
+.project-btn a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+.project-btn, a:hover{
+    color: #3e47f2;
+    transition: 0.3s ease-out;
+}
